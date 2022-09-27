@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(#66f9f6 50%, #37c5b5 100%);
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+    max-width: 500px;
+    top: 10%;
+    border: 1px, solid shadow rgb(255, 255, 255);
+    padding: 30px;
+    background-color: #0b9dc2;
+}
+
+.input-field{
+    text-align: center;;
+}
+
+input[type="text"]{
+    color: aqua;
+    border: none;
+    background-color: #0e0f10;
+    max-width: 400px;
+}
+
+.tasks li{
+    background-color: aqua;
+    color: #0e0f10;
+    font-weight: bold;
+}
+
+.delete{
+    color: red;
+    cursor: pointer;
+}
+footer{
+    background-color: #37c5b5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 2px;
+}
